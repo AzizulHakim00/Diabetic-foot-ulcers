@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data and experiment artifacts
+data/
+datasets/
+runs/
+artifacts/
+checkpoints/
+results/
+*.pt
+*.pth
+*.pkl
+*.zip
+
+# Notebook and operating-system metadata
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
